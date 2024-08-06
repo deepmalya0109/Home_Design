@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+   width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.6)70%,rgba(0,0,0,0.6)70%),url(images/photo-1618221195710-dd6b41faaea6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.nav-bar{
+    width: 1200px;
+    float: left;
+    height: 40px;
+    margin: auto;
+}
+.icon{
+    margin-top: 3%;
+    margin-left: 8%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    float: left;
+}
+.menu{
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin-left:47%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    margin-left: 25%;
+   font-size: 18px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+ul li a:hover{
+    color: rgb(250, 126, 147);;
+}
+.content{
+   float: left;
+   margin-top: 14%;
+   width: 1400px;
+}
+.txt{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+span{
+    color: rgb(250, 126, 147);
+}
+.house{
+    text-align: center;
+    margin-top: 2%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+.search{
+    text-align: center;
+    margin-top: 1.5%;
+}
+.search .srch{
+    width: 350px;
+    height: 30px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(250, 126, 147);
+    color: white;
+    letter-spacing: 1px;
+}
+.search .srch::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    color:  white;
+    
+}
+.search .srch:focus{
+    outline: none;
+}
+.search .srchbtn{
+    width: 75px;
+    height: 30px;
+    background-color: rgb(250, 126, 147);
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.search .srchbtn a{
+    text-decoration: none;
+    color: rgb(65, 15, 15);
+}
+.search .srchbtn:hover{
+    background-color: white;
+}
+.search .srchbtn :active{
+    color: pink;
+}
+.btn{
+    text-align: center; 
+    margin-top: 2%;
+}
+.btn .design{
+    margin-right: 5%;
+    font-size: 20px;
+    width: 150px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 126, 147);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.btn .design a{
+    text-decoration: none;
+    color: rgb(65, 15, 15);
+}
+.btn .design:hover{
+    background-color: white;
+}
+
+.btn .furn{
+    margin-left: 6%;
+    font-size: 20px;
+    width: 150px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 126, 147);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.btn .furn a{
+    text-decoration: none;
+    color: rgb(65, 15, 15);
+}
+.btn .furn:hover{
+    background-color: white;
+}
+.contact{
+    text-align: center; 
+    margin-top: 2%;
+}
+.contact .cntc{
+    font-size: 20px;
+    width: 150px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 126, 147);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.contact .cntc a{
+    text-decoration: none;
+    color: rgb(65, 15, 15);
+}
+.contact .cntc:hover{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/
+
+
